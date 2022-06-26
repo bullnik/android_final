@@ -1,4 +1,4 @@
-package com.example.android_final.ui.dashboard
+package com.example.android_final.ui.questions
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -13,8 +13,6 @@ class QuestionsFragment : Fragment() {
 
     private var _binding: FragmentQuestionsBinding? = null
 
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -28,10 +26,10 @@ class QuestionsFragment : Fragment() {
         _binding = FragmentQuestionsBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textDashboard
         questionsViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
+
         }
+
         return root
     }
 

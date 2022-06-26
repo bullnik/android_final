@@ -12,8 +12,10 @@
         <entry key="..\:/Documents/AndroidStudioProjects/android_final/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Documents/AndroidStudioProjects/android_final/app/src/main/res/layout/fragment_home.xml" value="0.2791666666666667" />
         <entry key="..\:/Documents/AndroidStudioProjects/android_final/app/src/main/res/layout/fragment_notifications.xml" value="0.33125" />
+        <entry key="..\:/Documents/AndroidStudioProjects/android_final/app/src/main/res/layout/fragment_question.xml" value="0.33489583333333334" />
         <entry key="..\:/Documents/AndroidStudioProjects/android_final/app/src/main/res/layout/fragment_questions.xml" value="0.2791666666666667" />
         <entry key="..\:/Documents/AndroidStudioProjects/android_final/app/src/main/res/layout/fragment_settings.xml" value="0.2791666666666667" />
+        <entry key="..\:/Documents/AndroidStudioProjects/android_final/app/src/main/res/layout/question_item.xml" value="0.33489583333333334" />
       </map>
     </option>
   </component>

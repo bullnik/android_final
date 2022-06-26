@@ -9,17 +9,30 @@
         android:id="@+id/navigation_home"
         android:name="com.example.android_final.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.android_final.ui.dashboard.QuestionsFragment"
+        android:id="@+id/navigation_questions"
+        android:name="com.example.android_final.ui.questions.QuestionsFragment"
         android:label="@string/title_questions"
-        tools:layout="@layout/fragment_questions" />
+        tools:layout="@layout/fragment_questions">
+        <action
+            android:id="@+id/action_questions_to_question"
+            app:destination="@id/navigation_question" />
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.android_final.ui.notifications.SettingsFragment"
+        android:id="@+id/navigation_settings"
+        android:name="com.example.android_final.ui.settings.SettingsFragment"
         android:label="@string/title_settings"
-        tools:layout="@layout/fragment_settings" />
+        tools:layout="@layout/fragment_settings">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_question"
+        android:name="com.example.android_final.ui.settings.SettingsFragment"
+        tools:layout="@layout/fragment_settings">
+    </fragment>
+
 </navigation>
